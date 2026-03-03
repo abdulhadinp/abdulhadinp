@@ -28,3 +28,104 @@ My objective is **leverage through technical mastery.**
 ---
 
 # 🛰 STRATEGIC STACK EVOLUTION
+
+[ Foundations ]
+Python • OOP • Algorithms • File Systems
+    ↓
+[ Data Intelligence ]
+NumPy • Pandas • Data Engineering • ML Foundations
+    ↓
+[ Infrastructure & Security ]
+Linux • Networking • Routing Protocols • ACLs • Secure Architectures
+    ↓
+[ Autonomous Systems ]
+AI Agents • Automation • System-Level Intelligence
+
+---
+
+# ⚙ TECH ARSENAL
+
+### 🧩 Core Language
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python)
+
+### 🌐 Web Engineering
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3)
+
+### 📊 Data Systems
+![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas)
+
+### 🛡 Infrastructure
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)
+![Cisco](https://img.shields.io/badge/Cisco-000000?style=for-the-badge)
+
+---
+
+# 📈 OPERATIONAL PROGRESSION MATRIX
+
+Python Mastery ██████████░░░░ 70%
+Object-Oriented Design █████████░░░░░ 65%
+Data Systems ████████░░░░░░ 60%
+Networking ███████░░░░░░░ 55%
+AI Systems █████░░░░░░░░░ 40%
+
+Progress is measured.  
+Improvement is tracked.  
+Execution is daily.
+
+---
+
+# 🚀 ACTIVE PROJECT ZONE
+
+• OOP Banking System (File Persistence Architecture)  
+• Structured Data Cleaning Framework  
+• Personal Portfolio Engineering  
+• Networking Simulation Lab (OSPF | EIGRP | ACL)  
+• AI Assistant Roadmap Documentation  
+
+---
+
+# 🧭 CORE OPERATING PRINCIPLES
+
+- Systems > Motivation  
+- Precision > Noise  
+- Depth > Popularity  
+- Discipline > Mood  
+- Architecture > Hacks  
+
+---
+
+# 🌌 2026 MISSION OBJECTIVES
+
+• Develop Bilingual AI Assistant (EN + NP)  
+• Design Secure Virtual Lab Infrastructure  
+• Publish Structured Technical Documentation  
+• Build High-Leverage Technical Assets  
+• Engineer Autonomous Productivity Systems  
+
+---
+
+# 📊 GITHUB ANALYTICS
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blue" />
+</p>
+
+---
+
+# 📡 CONNECT
+
+📍 Kathmandu, Nepal  
+📧 abdulhadi4172@gmail.com  
+
+---
+
+<p align="center">
+  <b>Building in Public. Engineering in Silence. Executing Relentlessly.</b>
+</p>
