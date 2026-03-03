@@ -143,7 +143,7 @@ Execution is daily.
   <img src="https://img.shields.io/badge/LinkedIn-Professional%20Network-000000?style=for-the-badge&logo=linkedin" />
 </a>
 
-<a href="https://x.com/YOUR_X_USERNAME">
+<a href="https://x.com/AbdulHadiNP">
   <img src="https://img.shields.io/badge/X-Tech%20Insights-000000?style=for-the-badge&logo=x" />
 </a>
 
