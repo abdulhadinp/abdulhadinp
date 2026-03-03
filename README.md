@@ -1,9 +1,9 @@
-<!-- ================== FUTURISTIC HEADER ================== -->
+<!-- ================== FUTURISTIC ELITE GITHUB PROFILE ================== -->
 
 <h1 align="center">⚡ ABDUL HADI ⚡</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=AI+Systems+Architect;Cybersecurity+Engineer+in+Training;Builder+of+High-Leverage+Technology;Engineering+My+Own+Technical+Sovereignty" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=AI+Systems+Architect;Cybersecurity+Engineer+in+Training;Builder+of+High-Leverage+Technology;Engineering+Technical+Sovereignty" />
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 # 🧠 COMMAND PROFILE
 
-I don’t consume technology.
+I do not consume technology.
 
 I architect capability.
 
@@ -29,17 +29,25 @@ My objective is **leverage through technical mastery.**
 
 # 🛰 STRATEGIC STACK EVOLUTION
 
-[ Foundations ]
+```
+[ Foundations ] 
 Python • OOP • Algorithms • File Systems
-    ↓
+
+        ↓
+
 [ Data Intelligence ]
 NumPy • Pandas • Data Engineering • ML Foundations
-    ↓
+
+        ↓
+
 [ Infrastructure & Security ]
 Linux • Networking • Routing Protocols • ACLs • Secure Architectures
-    ↓
+
+        ↓
+
 [ Autonomous Systems ]
 AI Agents • Automation • System-Level Intelligence
+```
 
 ---
 
@@ -64,11 +72,13 @@ AI Agents • Automation • System-Level Intelligence
 
 # 📈 OPERATIONAL PROGRESSION MATRIX
 
-Python Mastery ██████████░░░░ 70%
-Object-Oriented Design █████████░░░░░ 65%
-Data Systems ████████░░░░░░ 60%
-Networking ███████░░░░░░░ 55%
-AI Systems █████░░░░░░░░░ 40%
+```
+Python Mastery           ██████████░░░░ 70%
+Object-Oriented Design   █████████░░░░░ 65%
+Data Systems             ████████░░░░░░ 60%
+Networking               ███████░░░░░░░ 55%
+AI Systems               █████░░░░░░░░░ 40%
+```
 
 Progress is measured.  
 Improvement is tracked.  
@@ -98,7 +108,7 @@ Execution is daily.
 
 # 🌌 2026 MISSION OBJECTIVES
 
-• Develop Bilingual AI Assistant (EN + NP)  
+• Develop Bilingual AI Assistant (English + Nepali)  
 • Design Secure Virtual Lab Infrastructure  
 • Publish Structured Technical Documentation  
 • Build High-Leverage Technical Assets  
@@ -129,3 +139,5 @@ Execution is daily.
 <p align="center">
   <b>Building in Public. Engineering in Silence. Executing Relentlessly.</b>
 </p>
+
+<!-- ================== END OF PROFILE ================== -->
