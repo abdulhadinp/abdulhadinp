@@ -29,7 +29,7 @@ My objective is **leverage through technical mastery.**
 
 # 🛰 STRATEGIC STACK EVOLUTION
 
-```
+
 [ Foundations ] 
 Python • OOP • Algorithms • File Systems
 
@@ -47,7 +47,7 @@ Linux • Networking • Routing Protocols • ACLs • Secure Architectures
 
 [ Autonomous Systems ]
 AI Agents • Automation • System-Level Intelligence
-```
+
 
 ---
 
