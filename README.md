@@ -139,7 +139,7 @@ Execution is daily.
   <img src="https://img.shields.io/badge/Email-abdulhadi4172@gmail.com-000000?style=for-the-badge&logo=gmail" />
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+<a href="https://www.linkedin.com/in/abdulhadi-cyberai/">
   <img src="https://img.shields.io/badge/LinkedIn-Professional%20Network-000000?style=for-the-badge&logo=linkedin" />
 </a>
 
@@ -147,19 +147,19 @@ Execution is daily.
   <img src="https://img.shields.io/badge/X-Tech%20Insights-000000?style=for-the-badge&logo=x" />
 </a>
 
-<a href="https://medium.com/@YOUR_MEDIUM_USERNAME">
+<a href="https://medium.com/@AbdulHadiNP">
   <img src="https://img.shields.io/badge/Medium-Technical%20Writing-000000?style=for-the-badge&logo=medium" />
 </a>
 
-<a href="https://www.facebook.com/YOUR_FB_USERNAME">
+<a href="https://www.facebook.com/abdulhadinpl">
   <img src="https://img.shields.io/badge/Facebook-Public%20Presence-000000?style=for-the-badge&logo=facebook" />
 </a>
 
-<a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
+<a href="https://www.instagram.com/abdulhadinp/">
   <img src="https://img.shields.io/badge/Instagram-Building%20in%20Public-000000?style=for-the-badge&logo=instagram" />
 </a>
 
-<a href="https://YOUR_PORTFOLIO_WEBSITE_LINK">
+<a href="https://abdulhadi.com.np">
   <img src="https://img.shields.io/badge/Portfolio-Website-000000?style=for-the-badge&logo=google-chrome" />
 </a>
 
@@ -173,13 +173,6 @@ Execution is daily.
 <p align="center">
   <b>Open to collaboration in AI, Security, and Systems Engineering.</b>
 </p>
-
----
-
-# 📡 CONNECT
-
-📍 Kathmandu, Nepal  
-📧 abdulhadi4172@gmail.com  
 
 ---
 
