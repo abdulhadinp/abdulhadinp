@@ -129,6 +129,53 @@ Execution is daily.
 
 ---
 
+---
+
+# 📡 CONNECT
+
+<p align="center">
+
+<a href="mailto:abdulhadi4172@gmail.com">
+  <img src="https://img.shields.io/badge/Email-abdulhadi4172@gmail.com-000000?style=for-the-badge&logo=gmail" />
+</a>
+
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+  <img src="https://img.shields.io/badge/LinkedIn-Professional%20Network-000000?style=for-the-badge&logo=linkedin" />
+</a>
+
+<a href="https://x.com/YOUR_X_USERNAME">
+  <img src="https://img.shields.io/badge/X-Tech%20Insights-000000?style=for-the-badge&logo=x" />
+</a>
+
+<a href="https://medium.com/@YOUR_MEDIUM_USERNAME">
+  <img src="https://img.shields.io/badge/Medium-Technical%20Writing-000000?style=for-the-badge&logo=medium" />
+</a>
+
+<a href="https://www.facebook.com/YOUR_FB_USERNAME">
+  <img src="https://img.shields.io/badge/Facebook-Public%20Presence-000000?style=for-the-badge&logo=facebook" />
+</a>
+
+<a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
+  <img src="https://img.shields.io/badge/Instagram-Building%20in%20Public-000000?style=for-the-badge&logo=instagram" />
+</a>
+
+<a href="https://YOUR_PORTFOLIO_WEBSITE_LINK">
+  <img src="https://img.shields.io/badge/Portfolio-Website-000000?style=for-the-badge&logo=google-chrome" />
+</a>
+
+</p>
+
+---
+
+📍 Kathmandu, Nepal  
+📧 abdulhadi4172@gmail.com  
+
+<p align="center">
+  <b>Open to collaboration in AI, Security, and Systems Engineering.</b>
+</p>
+
+---
+
 # 📡 CONNECT
 
 📍 Kathmandu, Nepal  
