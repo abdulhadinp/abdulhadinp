@@ -1,16 +1,30 @@
-## Hi there 👋
+<!-- ================== FUTURISTIC HEADER ================== -->
 
+<h1 align="center">⚡ ABDUL HADI ⚡</h1>
 
-**abdulhadinp/abdulhadinp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=AI+Systems+Architect;Cybersecurity+Engineer+in+Training;Builder+of+High-Leverage+Technology;Engineering+My+Own+Technical+Sovereignty" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://img.shields.io/badge/Mission-AI%20%7C%20Security%20%7C%20Systems-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Execution-Relentless-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Location-Nepal-FF0000?style=for-the-badge" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+---
 
+# 🧠 COMMAND PROFILE
+
+I don’t consume technology.
+
+I architect capability.
+
+BSc IT | Artificial Intelligence | Cybersecurity | Systems Engineering
+
+My objective is not employment.  
+My objective is **leverage through technical mastery.**
+
+---
+
+# 🛰 STRATEGIC STACK EVOLUTION
