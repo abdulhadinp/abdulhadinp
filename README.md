@@ -167,17 +167,10 @@ Execution is daily.
 
 ---
 
-📍 Kathmandu, Nepal  
-📧 abdulhadi4172@gmail.com  
+📍 Kathmandu, Nepal   
 
 <p align="center">
   <b>Open to collaboration in AI, Security, and Systems Engineering.</b>
-</p>
-
----
-
-<p align="center">
-  <b>Building in Public. Engineering in Silence. Executing Relentlessly.</b>
 </p>
 
 <!-- ================== END OF PROFILE ================== -->
