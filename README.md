@@ -124,7 +124,7 @@ Execution is daily.
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=abdulhadinp&style=for-the-badge&color=blue" />
 </p>
 
 ---
