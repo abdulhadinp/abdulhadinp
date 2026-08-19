@@ -151,7 +151,7 @@ Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving t
 # GITHUB ANALYTICS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=abdulhadinp&show_icons=true&theme=radical" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical" height="165"/>
 </p>
 
