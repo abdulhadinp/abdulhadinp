@@ -92,14 +92,13 @@ React • Next.js • TypeScript • Express.js • PostgreSQL • MySQL • Sup
 
 # SKILL PROGRESSION
 
-*(self-rated, adjust these to match your own honest assessment before publishing)*
 
 ```
-Python & Data Analysis     ████████████░░  80%
-Machine Learning           █████████░░░░░  65%
-Data Visualization (BI)    █████████░░░░░  65%
+Python & Data Analysis     ████████████░░  90%
+Machine Learning           █████████░░░░░  85%
+Data Visualization (BI)    █████████░░░░░  95%
 Full-Stack Development     ██████████░░░░  70%
-Agentic AI / Prompt Eng.   ████████░░░░░░  60%
+Agentic AI / Prompt Eng.   ████████░░░░░░  80%
 ```
 
 ---
