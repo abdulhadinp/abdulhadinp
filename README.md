@@ -152,18 +152,17 @@ Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving t
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abdulhadinp&show_icons=true&theme=radical" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulhadinp&theme=radical" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulhadinp&layout=compact&theme=radical" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=abdulhadinp&style=for-the-badge&color=blue" />
 </p>
 
-*(replace YOUR_GITHUB_USERNAME with your actual GitHub username in all three links above)*
 
 ---
 
