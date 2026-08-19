@@ -93,6 +93,7 @@ React • Next.js • TypeScript • Express.js • PostgreSQL • MySQL • Sup
 # SKILL PROGRESSION
 
 
+
 ```
 Python & Data Analysis     ████████████░░  90%
 Machine Learning           █████████░░░░░  85%
