@@ -20,7 +20,7 @@ AI & ML Engineer, Data Scientist, and Data Analyst focused on turning raw data i
 
 BSc (Hons) Computer Systems Engineering, IT, University of Sunderland
 
-I work across the full pipeline: cleaning and exploring data, building and evaluating machine learning and deep learning models, visualizing results in Power BI and Tableau, and shipping the full-stack products those insights end up living in.
+I work across the full pipeline: data analytics and exploratory analysis, building and evaluating machine learning and deep learning models, visualizing results in Power BI and Tableau, and shipping the full-stack products those insights end up living in.
 
 ---
 
@@ -57,11 +57,14 @@ React • Next.js • TypeScript • Express.js • PostgreSQL • MySQL • Sup
 ![C%2B%2B](https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=cplusplus)
 ![C%23](https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=csharp)
 
-### Data Science & Machine Learning
+### Data Science, Analytics & Machine Learning
 ![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas)
 ![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch)
 ![scikitlearn](https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge&logo=scikitlearn)
+<img src="https://img.shields.io/badge/Data%20Analytics-000000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Statistical%20Analysis-000000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Kaggle-000000?style=for-the-badge&logo=kaggle" />
 
 ### BI & Databases
 ![PowerBI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi)
@@ -163,7 +166,6 @@ Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving t
   <img src="https://komarev.com/ghpvc/?username=abdulhadinp&style=for-the-badge&color=blue" />
 </p>
 
-
 ---
 
 # CONNECT
@@ -178,6 +180,10 @@ Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving t
   <img src="https://img.shields.io/badge/LinkedIn-Connect-000000?style=for-the-badge&logo=linkedin" />
 </a>
 
+<a href="https://www.kaggle.com/abdulhadinp">
+  <img src="https://img.shields.io/badge/Kaggle-Profile-000000?style=for-the-badge&logo=kaggle" />
+</a>
+
 <a href="https://x.com/AbdulHadiNP">
   <img src="https://img.shields.io/badge/X-Tech%20Insights-000000?style=for-the-badge&logo=x" />
 </a>
@@ -188,6 +194,14 @@ Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving t
 
 <a href="https://abdulhadi.com.np">
   <img src="https://img.shields.io/badge/Portfolio-Website-000000?style=for-the-badge&logo=google-chrome" />
+</a>
+
+<a href="https://www.facebook.com/abdulhadinpl">
+  <img src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook" />
+</a>
+
+<a href="https://www.instagram.com/abdulhadinp/">
+  <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram" />
 </a>
 
 </p>
