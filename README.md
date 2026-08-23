@@ -1,4 +1,20 @@
-                                     @@@@@@@%%@@@
+<!-- ================== AI / DATA / FULL STACK GITHUB PROFILE ================== -->
+
+<h1 align="center">ABDUL HADI</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=AI+%26+ML+Engineer;Data+Scientist;Data+Analyst;Python+Developer;Full-Stack+Engineer;Agentic+AI+Builder" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Data%20Science%20%7C%20Full--Stack-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Approach-Systematic%20%26%20Data--Driven-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Location-Nepal-1E1E1E?style=for-the-badge" />
+</p>
+
+---
+
+ @@@@@@@%%@@@
                                  @@%%@%%%%%%%@@@@@@@@@
                                 %%%%@%%%%@@@@@@@@@@@@@@@@
                                %@%%@%%@@%@@@@@@@@@@@@@@@@@%
@@ -69,22 +85,6 @@
           =-====++++++++*+++*********#####%@@%##############%%%%%%%%%%%%%%%%%%
           -====++++++++++++********#####%#%%################%%%%%%%%%%%%%%%%%%
          +-===+++++++++++++*******#####*%%@%#%############%%%%%%%%%%%%%%%%%%%%%
-
-<!-- ================== AI / DATA / FULL STACK GITHUB PROFILE ================== -->
-
-<h1 align="center">ABDUL HADI</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=AI+%26+ML+Engineer;Data+Scientist;Data+Analyst;Python+Developer;Full-Stack+Engineer;Agentic+AI+Builder" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Data%20Science%20%7C%20Full--Stack-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Approach-Systematic%20%26%20Data--Driven-111111?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Nepal-1E1E1E?style=for-the-badge" />
-</p>
-
----
 
 # ABOUT
 
