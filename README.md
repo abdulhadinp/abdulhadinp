@@ -150,27 +150,27 @@ Agentic AI / Prompt Eng.   ████████░░░░░░  80%
 
 **AI-Powered WhatsApp Chatbot**
 Built an AI-driven WhatsApp automation system for small businesses, connecting Meta's Cloud API to an LLM-backed response engine so customer conversations run without a human on the other end. Stack: Flask, NVIDIA NIM, Supabase, deployed on Railway.
-`[add repo link]`
+``
 
 **Learning Tracker, Subscription SaaS** *(in progress)*
 Full-stack web app for tracking personal learning, structured as a subscription product with plan-gated dashboards, row-level security per user, and an admin panel for manual approval and subscription management. Stack: Next.js, Supabase (RLS), Vercel.
-`[add repo link]`
+``
 
 **ARIA, Local-First AI Assistant**
 A local-first AI assistant for macOS with an intent-routing layer (TinyLlama), local model execution via Ollama and qwen2.5-coder, and Gemini Live for web-grounded answers. Includes voice I/O, a code agent with a write, save, run, fix loop, and face recognition.
-`[add repo link]`
+``
 
 **SkillBridge, Job Portal Platform**
 An education and job-portal platform built with ASP.NET Core 8, MySQL, EF Core, and an MVC architecture.
-`[add repo link]`
+``
 
 **Kirana Shop App**
 Android application for a local grocery shop covering both inventory management and customer ordering, built in Android Studio.
-`[add repo link]`
+``
 
 **Data Science Practice & EDA Case Studies**
 Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving through progressively harder datasets (student, retail, HR, e-commerce, time series, survey, and cohort data) to build real exploratory data analysis fluency.
-`[add repo link]`
+``
 
 ---
 
