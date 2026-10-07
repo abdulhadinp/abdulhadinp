@@ -87,7 +87,7 @@
   <a href="https://abdulhadi.com.np"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="64"></a>
 </p>
 <p align="center">
-  <a href="https://youtube.com/@AbdulHadiNPL"><img src="assets/btn-youtube.svg" alt="YouTube" height="64"></a>
+  <a href="https://youtube.com/@AbdulJourneyOfficial"><img src="assets/btn-youtube.svg" alt="YouTube" height="64"></a>
   <a href="https://instagram.com/abdulhadinp"><img src="assets/btn-instagram.svg" alt="Instagram" height="64"></a>
   <a href="https://kaggle.com/abdulhadinp"><img src="assets/btn-kaggle.svg" alt="Kaggle" height="64"></a>
 </p>
