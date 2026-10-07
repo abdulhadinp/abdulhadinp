@@ -1,213 +1,175 @@
-<!-- ================== AI / DATA / FULL STACK GITHUB PROFILE ================== -->
+<!-- Create a public repo named exactly "abdulhadinp" (same as your username) and put this file in it as README.md -->
 
-<h1 align="center">ABDUL HADI</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=AI+%26+ML+Engineer;Data+Scientist;Data+Analyst;Python+Developer;Full-Stack+Engineer;Agentic+AI+Builder" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F2C,50:0B3D91,100:E11D48&height=240&section=header&text=ABDUL%20HADI&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=BUILD.%20BEYOND.&descSize=22&descAlignY=60&animation=fadeIn" width="100%" alt="Abdul Hadi header" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Data%20Science%20%7C%20Full--Stack-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Approach-Systematic%20%26%20Data--Driven-111111?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Nepal-1E1E1E?style=for-the-badge" />
-</p>
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=AI+%26+Software+Builder+%7C+Founder+of+Zyvora+Technologies;Co-Founder+%26+CTO+at+Nexus+Global+Travels;AI+Researcher+at+Vectrah;Tech+Educator+%7C+abduljourneyofficial;Aiming+to+be+recruited%2C+not+to+apply" alt="Typing intro" />
+</a>
 
----
+<br/>
 
-# ABOUT
+![Location](https://img.shields.io/badge/Kathmandu%2C_Nepal-0B3D91?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Zyvora](https://img.shields.io/badge/Founder-Zyvora_Technologies-E11D48?style=for-the-badge&logo=rocket&logoColor=white)
+![Vectrah](https://img.shields.io/badge/AI_Researcher-Vectrah-0B3D91?style=for-the-badge&logo=openai&logoColor=white)
+![Profile Views](https://komarev.com/ghpvc/?username=abdulhadinp&label=PROFILE+VIEWS&color=E11D48&style=for-the-badge)
 
-AI & ML Engineer, Data Scientist, and Data Analyst focused on turning raw data into models and systems that drive real decisions.
+</div>
 
-BSc (Hons) Computer Systems Engineering, IT, University of Sunderland
+<br/>
 
-I work across the full pipeline: data analytics and exploratory analysis, building and evaluating machine learning and deep learning models, visualizing results in Power BI and Tableau, and shipping the full-stack products those insights end up living in.
+## `01 / FROM THOUGHT TO THING`
 
----
+### Ideas. Built different.
 
-# STACK EVOLUTION
+```ts
+const abdul = {
+  role: "Software Architect in the making, AI Builder",
+  based: "Kathmandu, Nepal",
+  studying: "BSc (Hons) IT, final year, ISMT College (University of Sunderland)",
+  building: ["Zyvora Technologies", "Nexus Global Travels", "ARIA"],
+  working: "AI Researcher at Vectrah",
+  teaching: "Hinglish tech education for Nepali and Indian audiences",
+  focus: ["AI Engineering", "Software Architecture", "Cybersecurity"],
+  mindset: "Curious by default. Building with intent.",
+};
 
-```
-[ Foundations ]
-Python • OOP • Data Structures • Algorithms
-
-        ↓
-
-[ Data Science & Analytics ]
-NumPy • Pandas • Matplotlib • Seaborn • Power BI • Tableau • SQL
-
-        ↓
-
-[ Machine Learning & AI ]
-Scikit-learn • PyTorch • Deep Learning • Agentic AI • Prompt Engineering
-
-        ↓
-
-[ Full-Stack Engineering ]
-React • Next.js • TypeScript • Express.js • PostgreSQL • MySQL • Supabase
+abdul.turnCuriosityIntoImpact();
 ```
 
----
+<table>
+<tr>
+<td width="33%" valign="top">
 
-# TECH ARSENAL
+**Modern Web and App Dev**
+<br/>From first interaction to production.
 
-### Core Languages
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript)
-![C%2B%2B](https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=cplusplus)
-![C%23](https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=csharp)
+</td>
+<td width="33%" valign="top">
 
-### Data Science, Analytics & Machine Learning
-![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas)
-![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch)
-![scikitlearn](https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge&logo=scikitlearn)
-<img src="https://img.shields.io/badge/Data%20Analytics-000000?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Statistical%20Analysis-000000?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Kaggle-000000?style=for-the-badge&logo=kaggle" />
+**AI and Cloud Integration**
+<br/>Scalable systems. Useful intelligence.
 
-### BI & Databases
-![PowerBI](https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi)
-![Tableau](https://img.shields.io/badge/Tableau-000000?style=for-the-badge&logo=tableau)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql)
-![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql)
+</td>
+<td width="33%" valign="top">
 
-### Full-Stack & Web
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react)
-![NextJS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
-![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3)
-![DotNet](https://img.shields.io/badge/.NET-000000?style=for-the-badge&logo=dotnet)
+**Community Mentorship**
+<br/>Making the next step less uncertain.
 
-### AI Tooling & Infra
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)
-![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase)
-<img src="https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Prompt%20Engineering-000000?style=for-the-badge" />
+</td>
+</tr>
+</table>
 
----
+<br/>
 
-# SKILL PROGRESSION
+## `02 / LIFE OUTSIDE THE COMMIT`
 
+### More than a job title.
 
+| | |
+|:--|:--|
+| **Student** | Final year BSc (Hons) IT at ISMT College, Kathmandu |
+| **Founder** | Zyvora Technologies, an AI and software company |
+| **Co-Founder and CTO** | Nexus Global Travels, Kathmandu |
+| **Researcher** | Research Intern and AI Researcher at Vectrah, since July 2026 |
+| **Creator** | abduljourneyofficial, a tech education brand on YouTube, Instagram and Facebook |
+| **Freelancer** | Fiverr and Upwork, buyer and seller side, since November 2024 |
 
+<br/>
+
+## `03 / TOOLS CHANGE. CURIOSITY DOESN'T.`
+
+> **Code is the tool. Impact is the point.**
+
+**01 / LANGUAGES**
+
+<img src="https://skillicons.dev/icons?i=js,ts,c,cpp,cs,py&theme=dark" alt="Languages" />
+
+**02 / FRONTEND AND RUNTIME**
+
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,nodejs&theme=dark" alt="Frontend" />
+
+**03 / BACKEND, DATA AND CLOUD**
+
+<img src="https://skillicons.dev/icons?i=express,dotnet,postgres,mysql,supabase,vercel,railway&theme=dark" alt="Backend" />
+
+**04 / WORKFLOW**
+
+<img src="https://skillicons.dev/icons?i=git,github,androidstudio,vscode,linux&theme=dark" alt="Workflow" />
+
+`BUILD / MENTOR / CREATE / REPEAT`
+
+<br/>
+
+## `04 / THINGS I'VE BUILT`
+
+| Project | What it does | Focus |
+|:--|:--|:--|
+| **ARIA** | Local first AI assistant with smart routing, built under Zyvora | AI + Systems |
+| **School Management SaaS** | Multi tenant platform for schools | SaaS + Architecture |
+| **WhatsApp AI Chatbot SaaS** | AI chatbot service for businesses on WhatsApp | AI + Automation |
+| **SkillBridge** | Education and job portal platform | Learning + Careers |
+| **Learning Tracker SaaS** | Subscription based learning tracker (Next.js, Supabase, Vercel) | Productivity + SaaS |
+| **Kirana Shop App** | Android app for local grocery inventory and customer ordering | Mobile + Retail |
+| **Restaurant Website Template** | Reusable, brandable website template for restaurants | Web + Business |
+| **Nexus Global Travels** | Tours and travels platform for Nepal to abroad and abroad to Nepal packages | Travel + Web |
+
+> Add repo links to each project name once they are public, for example `[ARIA](https://github.com/abdulhadinp/ARIA)`.
+
+<br/>
+
+## `05 / BUILDER CREDENTIALS`
+
+### Real work. Real impact.
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=abdulhadinp&show_icons=true&hide_border=true&bg_color=0A0F2C&title_color=38BDF8&icon_color=E11D48&text_color=E2E8F0&ring_color=E11D48&count_private=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulhadinp&layout=compact&hide_border=true&bg_color=0A0F2C&title_color=38BDF8&text_color=E2E8F0" height="165" alt="Top languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulhadinp&background=0A0F2C&ring=E11D48&fire=E11D48&currStreakLabel=38BDF8&sideLabels=E2E8F0&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=94A3B8&stroke=1E3A8A&border=1E3A8A" alt="GitHub streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulhadinp&bg_color=0A0F2C&color=38BDF8&line=E11D48&point=FFFFFF&area=true&area_color=0B3D91&hide_border=true" width="100%" alt="Contribution graph" />
+
+</div>
+
+<br/>
+
+## `06 / THE ROADMAP`
+
+```text
+NOW     > Final year BSc, AI research at Vectrah, shipping Zyvora products
+NEXT    > Next.js, PostgreSQL, Python, system architecture, AI agents, automation
+GOAL    > Skilled software architect and AI builder who gets recruited
+VISION  > Zyvora as a multi subsidiary company: Technologies, Commerce, Academy, Studios
 ```
-Python & Data Analysis     ████████████░░  90%
-Machine Learning           █████████░░░░░  85%
-Data Visualization (BI)    █████████░░░░░  95%
-Full-Stack Development     ██████████░░░░  70%
-Agentic AI / Prompt Eng.   ████████░░░░░░  80%
-```
 
----
+<br/>
 
-# FEATURED BUILDS
+## `07 / START A CONVERSATION`
 
-**AI-Powered WhatsApp Chatbot**
-Built an AI-driven WhatsApp automation system for small businesses, connecting Meta's Cloud API to an LLM-backed response engine so customer conversations run without a human on the other end. Stack: Flask, NVIDIA NIM, Supabase, deployed on Railway.
-``
+### Let's connect. Build something great.
 
-**Learning Tracker, Subscription SaaS** *(in progress)*
-Full-stack web app for tracking personal learning, structured as a subscription product with plan-gated dashboards, row-level security per user, and an admin panel for manual approval and subscription management. Stack: Next.js, Supabase (RLS), Vercel.
-``
+*Ideas. Opportunities. Your next move.*
 
-**ARIA, Local-First AI Assistant**
-A local-first AI assistant for macOS with an intent-routing layer (TinyLlama), local model execution via Ollama and qwen2.5-coder, and Gemini Live for web-grounded answers. Includes voice I/O, a code agent with a write, save, run, fix loop, and face recognition.
-``
+<div align="center">
 
-**SkillBridge, Job Portal Platform**
-An education and job-portal platform built with ASP.NET Core 8, MySQL, EF Core, and an MVC architecture.
-``
+<a href="https://linkedin.com/in/abdulhadinp"><img src="https://img.shields.io/badge/LinkedIn-Connect_and_exchange_ideas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://youtube.com/@AbdulHadiNPL"><img src="https://img.shields.io/badge/YouTube-Learn_with_Hadi-E11D48?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+<a href="https://instagram.com/abdulhadinp"><img src="https://img.shields.io/badge/Instagram-@abdulhadinp-C13584?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="https://abdulhadi.com.np"><img src="https://img.shields.io/badge/Portfolio-abdulhadi.com.np-0B3D91?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://kaggle.com/abdulhadinp"><img src="https://img.shields.io/badge/Kaggle-abdulhadinp-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+<a href="mailto:abdulhadi4172@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
-**Kirana Shop App**
-Android application for a local grocery shop covering both inventory management and customer ordering, built in Android Studio.
-``
+<br/><br/>
 
-**Data Science Practice & EDA Case Studies**
-Structured practice work across NumPy, Pandas, Matplotlib, and Seaborn, moving through progressively harder datasets (student, retail, HR, e-commerce, time series, survey, and cohort data) to build real exploratory data analysis fluency.
-``
+**Good people. Good ideas. Let's talk.**
 
----
+<br/>
 
-# HOW I WORK
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E11D48,50:0B3D91,100:0A0F2C&height=120&section=footer" width="100%" alt="Footer" />
 
-- Understand the data before touching the model
-- Structured problem solving over guesswork: root cause analysis, SWOT, PESTEL
-- Ship full-stack, not just notebooks
-- Document as I build, not after
-- Iterate in public
+*Curious by default. Building with intent.*
 
----
-
-# 2026 GOALS
-
-- Go deeper into machine learning and deep learning fundamentals
-- Contribute to real-world ML and data projects, not just practice datasets
-- Ship production-ready, full-stack AI products end to end
-- Grow a freelance Data Science and AI/ML practice
-
----
-
-# GITHUB ANALYTICS
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulhadinp&show_icons=true&theme=radical" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulhadinp&theme=radical" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulhadinp&layout=compact&theme=radical" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=abdulhadinp&style=for-the-badge&color=blue" />
-</p>
-
----
-
-# CONNECT
-
-<p align="center">
-
-<a href="mailto:abdulhadi4172@gmail.com">
-  <img src="https://img.shields.io/badge/Email-abdulhadi4172@gmail.com-000000?style=for-the-badge&logo=gmail" />
-</a>
-
-<a href="https://www.linkedin.com/in/abdulhadinp">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-000000?style=for-the-badge&logo=linkedin" />
-</a>
-
-<a href="https://www.kaggle.com/abdulhadinp">
-  <img src="https://img.shields.io/badge/Kaggle-Profile-000000?style=for-the-badge&logo=kaggle" />
-</a>
-
-<a href="https://x.com/AbdulHadiNP">
-  <img src="https://img.shields.io/badge/X-Tech%20Insights-000000?style=for-the-badge&logo=x" />
-</a>
-
-<a href="https://medium.com/@AbdulHadiNP">
-  <img src="https://img.shields.io/badge/Medium-Technical%20Writing-000000?style=for-the-badge&logo=medium" />
-</a>
-
-<a href="https://abdulhadi.com.np">
-  <img src="https://img.shields.io/badge/Portfolio-Website-000000?style=for-the-badge&logo=google-chrome" />
-</a>
-
-<a href="https://www.facebook.com/abdulhadinpl">
-  <img src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook" />
-</a>
-
-<a href="https://www.instagram.com/abdulhadinp/">
-  <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram" />
-</a>
-
-</p>
-
-<p align="center">
-  <b>Open to Data Scientist, Data Analyst, and AI/ML Engineer roles, and always glad to connect with other builders.</b>
-</p>
-
-<!-- ================== END OF PROFILE ================== -->
+</div>
