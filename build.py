@@ -244,17 +244,44 @@ def terminal():
 def idcard():
     W, H = 1000, 520
     photo = None
-    for p in (os.path.join(OUT, "photo.jpg"), os.path.join(HERE, "photo.jpg"), os.path.join(HERE, "photo.png")):
+
+    # Check all common photo filenames and extensions in project root and assets/
+    candidates = [
+        os.path.join(HERE, "photo.png"),
+        os.path.join(HERE, "photo.PNG"),
+        os.path.join(HERE, "photo.jpg"),
+        os.path.join(HERE, "photo.JPG"),
+        os.path.join(HERE, "photo.jpeg"),
+        os.path.join(HERE, "photo.JPEG"),
+        os.path.join(OUT, "photo.png"),
+        os.path.join(OUT, "photo.PNG"),
+        os.path.join(OUT, "photo.jpg"),
+        os.path.join(OUT, "photo.jpeg"),
+    ]
+
+    found_path = None
+    for p in candidates:
         if os.path.exists(p):
-            mime = "image/png" if p.endswith(".png") else "image/jpeg"
-            photo = f"data:{mime};base64," + base64.b64encode(open(p, "rb").read()).decode()
+            found_path = p
             break
+
+    if found_path:
+        ext = os.path.splitext(found_path)[1].lower()
+        mime = "image/png" if "png" in ext else "image/jpeg"
+        with open(found_path, "rb") as f:
+            b64_data = base64.b64encode(f.read()).decode("utf-8")
+        photo = f"data:{mime};base64,{b64_data}"
+        print(f"--> [SUCCESS] Embedded photo from: {found_path}")
+    else:
+        print("--> [WARNING] No photo file found! Falling back to 'AH' monogram.")
+
     rnd = random.Random(11)
     bars, bx = [], 132
     while bx < 380:
         w = rnd.choice([2, 2, 3, 4])
         bars.append(f'<rect x="{bx}" y="418" width="{w}" height="26" fill="#E2E8F0" fill-opacity=".85"/>')
         bx += w + rnd.choice([2, 3, 3, 4])
+
     if photo:
         pic = f'<image href="{photo}" x="132" y="150" width="256" height="196" preserveAspectRatio="xMidYMid slice" clip-path="url(#ph)"/>'
     else:
@@ -262,6 +289,7 @@ def idcard():
                f'<circle cx="260" cy="226" r="42" fill="#0A1230" stroke="{BLUE}" stroke-width="2"/>'
                f'<path d="M168 346 C168 290 210 272 260 272 C310 272 352 290 352 346Z" fill="#0A1230" stroke="{BLUE}" stroke-width="2"/>'
                f'<text x="260" y="238" text-anchor="middle" font-family="{TITLE}" font-weight="900" font-size="34" fill="{BLUE}">AH</text>')
+
     card = f'''<g>
 <animateTransform attributeName="transform" type="rotate" values="-2.2 260 0;2.2 260 0;-2.2 260 0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="6s" repeatCount="indefinite"/>
 <rect x="242" y="-10" width="36" height="116" fill="url(#gb)"/>
@@ -282,16 +310,20 @@ def idcard():
 <text x="132" y="462" font-family="{MONO}" font-size="9" fill="{MUT}" letter-spacing="2">INDEPENDENT CREATOR &#183; FOUNDER</text>
 <g clip-path="url(#cc)"><rect x="-260" y="100" width="90" height="400" fill="url(#sheen)" transform="skewX(-18)"><animate attributeName="x" values="-260;520;520" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/></rect></g>
 </g>'''
+
     defs = f'''<linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F1B45"/><stop offset="1" stop-color="#1A0B2B"/></linearGradient>
 <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity=".22"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
 <clipPath id="cc"><rect x="110" y="112" width="300" height="360" rx="22"/></clipPath>
 <clipPath id="ph"><rect x="132" y="150" width="256" height="196" rx="14"/></clipPath>'''
+
     b = [blobs(W, H), particles(W, H, 22, 5), card]
+
     # right side
     b.append(slashes(500, 52, RED, 3, 16))
     b.append(f'<text x="548" y="66" font-family="{MONO}" font-size="14" font-weight="700" fill="{BLUE}" letter-spacing="3">BEHIND THE CODE</text>')
     b.append(f'<text x="500" y="132" font-family="{TITLE}" font-weight="900" font-size="46" fill="#FFFFFF">SHIPPING</text>')
     b.append(f'<text x="500" y="182" font-family="{TITLE}" font-weight="900" font-size="46" fill="url(#gb)">REAL THINGS.</text>')
+
     tiles = [("04", "ROLES HELD"), ("08", "PRODUCTS BUILT"), ("03", "BRANDS RUN")]
     for i, (n, l) in enumerate(tiles):
         tx = 500 + i * 158
@@ -300,6 +332,7 @@ def idcard():
 <rect x="{tx}" y="212" width="146" height="4" rx="2" fill="url(#gr)"/>
 <text x="{tx+18}" y="270" font-family="{TITLE}" font-weight="900" font-size="46" fill="url(#gb)">{n}</text>
 <text x="{tx+18}" y="296" font-family="{MONO}" font-size="11" font-weight="700" fill="{MUT}" letter-spacing="1">{l}</text></g>''')
+
     b.append(f'<text x="500" y="352" font-family="{MONO}" font-size="12" font-weight="700" fill="{RED}" letter-spacing="3">FOCUS AREAS</text>')
     bars_def = [("AI ENGINEERING", 330), ("SOFTWARE ARCHITECTURE", 300), ("CYBERSECURITY", 262), ("FULL STACK WEB", 318)]
     for i, (l, wv) in enumerate(bars_def):
@@ -307,9 +340,11 @@ def idcard():
         b.append(f'<text x="500" y="{yy+4}" font-family="{MONO}" font-size="12" fill="{TXT}">{l}</text>')
         b.append(f'<rect x="700" y="{yy-5}" width="260" height="10" rx="5" fill="{BLUE}" fill-opacity=".12"/>')
         b.append(f'<rect x="700" y="{yy-5}" width="0" height="10" rx="5" fill="url(#gb)" filter="url(#glow)"><animate attributeName="width" from="0" to="{wv*260/340:.0f}" begin="{0.6+i*0.3:.1f}s" dur="1.4s" fill="freeze"/></rect>')
+
     b.append(f'''<rect x="500" y="486" width="460" height="2" fill="{BLUE}" fill-opacity=".25"/>
 <rect x="500" y="470" width="44" height="18" rx="4" fill="{RED}"/><text x="522" y="483" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="700" fill="#FFFFFF">NOW</text>
 <text x="556" y="484" font-family="{SANS}" font-size="14" font-weight="700" fill="{TXT}">Building scalable software at Zyvora Technologies</text>''')
+
     return wrap(W, H, "".join(b), defs)
 
 
