@@ -54,14 +54,16 @@
 
 <p align="center">
   <a href="https://github.com/abdulhadinp">
-    <img src="https://github-readme-stats.vercel.app/api?username=abdulhadinp&show_icons=true&hide_border=true&bg_color=0A1230&title_color=38BDF8&icon_color=E11D48&text_color=E2E8F0&ring_color=E11D48&count_private=true" height="165" alt="GitHub stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=abdulhadinp&show_icons=true&hide_border=true&bg_color=0A0F24&title_color=00F0FF&icon_color=FF0055&text_color=F1F5F9&ring_color=00F0FF&count_private=true" height="165" alt="GitHub stats" />
   </a>
   <a href="https://github.com/abdulhadinp">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulhadinp&layout=compact&hide_border=true&bg_color=0A1230&title_color=38BDF8&text_color=E2E8F0" height="165" alt="Top languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulhadinp&layout=compact&hide_border=true&bg_color=0A0F24&title_color=00F0FF&text_color=F1F5F9" height="165" alt="Top languages" />
   </a>
 </p>
+
+<!-- Rock-Solid 3D Snake / Contribution Visualization -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulhadinp&bg_color=0A1230&color=38BDF8&line=E11D48&point=FFFFFF&area=true&area_color=0B3D91&hide_border=true" width="95%" alt="Contribution graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulhadinp&theme=tokyonight&background=0A0F24&border=00F0FF&stroke=00F0FF&ring=FF0055&fire=FF0055&currStreakLabel=00F0FF&sideLabels=F1F5F9&currStreakNum=F1F5F9&sideNums=F1F5F9&dates=64748B&hide_border=true" width="85%" alt="Streak stats" />
 </p>
 
 <br/><br/>
