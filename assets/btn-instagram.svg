@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" fill="none"><rect x="3" y="3" width="254" height="58" rx="16" fill="#0B1433" stroke="#C13584" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/></rect>
+<circle cx="34" cy="32" r="18" fill="#C13584"/><text x="34" y="37" text-anchor="middle" font-family="'Arial Black','Impact','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="14" fill="#FFFFFF">IG</text>
+<text x="64" y="29" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="16" fill="#FFFFFF">Instagram</text>
+<text x="64" y="47" font-family="'SFMono-Regular','JetBrains Mono','Consolas','Menlo','Courier New',monospace" font-size="10.5" fill="#7C8DB5">@abdulhadinp</text>
+<text x="234" y="38" text-anchor="end" font-family="'Arial Black','Impact','Helvetica Neue',Arial,sans-serif" font-size="18" fill="#C13584">&#8594;<animate attributeName="x" values="230;238;230" dur="1.6s" repeatCount="indefinite"/></text></svg>
