@@ -20,18 +20,11 @@
 <!-- 02 / BUILDER CREDENTIALS -->
 <img src="assets/sec2.svg" width="100%" alt="Real Work. Real Impact.">
 
-<table border="0" width="100%">
-  <tr>
-    <td width="30%" align="center" valign="middle">
-      <img src="photo.png" width="220" style="border-radius: 20px; border: 2px solid #00F0FF; box-shadow: 0 0 20px rgba(0,240,255,0.4);" alt="Abdul Hadi">
-      <br/>
-      <sub><b>ABDUL HADI // VERIFIED BUILDER</b></sub>
-    </td>
-    <td width="70%" valign="top">
-      <img src="assets/idcard.svg?v=final_fix" width="100%" alt="Builder Pass ID Card">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="photo.png" width="220" alt="Abdul Hadi">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/idcard.svg?v=final_fix_v2" width="700" alt="Builder Pass ID Card">
+</p>
 
 <br/><br/>
 
