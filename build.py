@@ -196,49 +196,6 @@ def hero():
 # --------------------------------------------------------------------------- ADVANCED ID CARD (HOLO HUD)
 def idcard():
     W, H = 1000, 540
-    photo = None
-
-    candidates = [
-        os.path.join(HERE, "photo.png"), os.path.join(HERE, "photo.PNG"),
-        os.path.join(HERE, "photo.jpg"), os.path.join(HERE, "photo.jpeg"),
-        os.path.join(OUT, "photo.png"), os.path.join(OUT, "photo.jpg")
-    ]
-    found_path = next((p for p in candidates if os.path.exists(p)), None)
-
-    if found_path:
-        try:
-            # Check file size
-            raw_bytes = open(found_path, "rb").read()
-            # If larger than 800KB, attempt PIL resize if available
-            if len(raw_bytes) > 800 * 1024:
-                try:
-                    from PIL import Image
-                    import io
-                    im = Image.open(io.BytesIO(raw_bytes))
-                    im.thumbnail((500, 500), Image.Resampling.LANCZOS)
-                    buf = io.BytesIO()
-                    im.save(buf, format="PNG", optimize=True)
-                    raw_bytes = buf.getvalue()
-                    print(f"--> [OPTIMIZED] Resized photo to {len(raw_bytes)//1024} KB for GitHub Camo limits.")
-                except ImportError:
-                    print("--> [NOTE] Install Pillow ('pip install pillow') if image file is too large.")
-            
-            ext = os.path.splitext(found_path)[1].lower()
-            mime = "image/png" if "png" in ext else "image/jpeg"
-            b64_data = base64.b64encode(raw_bytes).decode("utf-8")
-            photo = f"data:{mime};base64,{b64_data}"
-            print(f"--> [SUCCESS] Embedded photo from: {found_path} ({len(raw_bytes)//1024} KB)")
-        except Exception as e:
-            print(f"--> [ERROR reading photo]: {e}")
-    else:
-        print("--> [WARNING] No photo file found! Falling back to 'AH' monogram.")
-
-    if photo:
-        pic = f'<image href="{photo}" x="120" y="130" width="280" height="240" preserveAspectRatio="xMidYMid slice" clip-path="url(#photo_clip)"/>'
-    else:
-        pic = (f'<rect x="120" y="130" width="280" height="240" rx="14" fill="{PANEL2}"/>'
-               f'<circle cx="260" cy="230" r="50" fill="{PANEL}" stroke="{CYAN}" stroke-width="2"/>'
-               f'<text x="260" y="248" text-anchor="middle" font-family="{TITLE}" font-weight="900" font-size="44" fill="{CYAN}">AH</text>')
 
     # Reticle HUD
     reticle = f'''
@@ -258,28 +215,38 @@ def idcard():
 
     card = f'''<g>
     <animateTransform attributeName="transform" type="rotate" values="-2 260 0;2 260 0;-2 260 0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="7s" repeatCount="indefinite"/>
+    <!-- Lanyard -->
     <rect x="244" y="-20" width="32" height="110" fill="url(#gb)"/>
     <text transform="translate(264 4) rotate(90)" font-family="{MONO}" font-size="10" font-weight="700" fill="#FFFFFF" letter-spacing="3">BUILDER // 2026</text>
     <rect x="250" y="85" width="20" height="20" rx="4" fill="#030712" stroke="{CYAN}" stroke-width="2"/>
     
+    <!-- Hologram Badge Base -->
     <rect x="100" y="95" width="320" height="420" rx="20" fill="{PANEL}" stroke="{CYAN}" stroke-width="2.5" filter="url(#glow)"/>
     <rect x="100" y="95" width="320" height="8" rx="4" fill="url(#gneon)"/>
     
+    <!-- Badge Top Info -->
     <text x="122" y="124" font-family="{MONO}" font-size="12" font-weight="700" fill="{TXT}" letter-spacing="2">AH // ARCHITECT PASS</text>
     <text x="398" y="124" text-anchor="end" font-family="{MONO}" font-size="12" font-weight="700" fill="{CYAN}">ZYV-001</text>
     
-    {pic}
+    <!-- Photo Cutout Frame -->
+    <rect x="120" y="130" width="280" height="240" rx="14" fill="{PANEL2}" stroke="{CYAN}" stroke-width="1.5" stroke-opacity="0.6"/>
+    <circle cx="260" cy="230" r="50" fill="{PANEL}" stroke="{CYAN}" stroke-width="2"/>
+    <text x="260" y="248" text-anchor="middle" font-family="{TITLE}" font-weight="900" font-size="44" fill="{CYAN}">AH</text>
     {reticle}
     
+    <!-- Corner Photo Brackets -->
     <path d="M 124 150 V 134 H 144 M 376 134 H 396 V 150 M 124 350 V 366 H 144 M 376 366 H 396 V 350" stroke="{CYAN}" stroke-width="2" fill="none"/>
     
+    <!-- Identity Fields -->
     <text x="122" y="405" font-family="{TITLE}" font-weight="900" font-size="28" fill="#FFFFFF">ABDUL HADI</text>
     <text x="122" y="428" font-family="{MONO}" font-size="12" font-weight="700" fill="{ROSE}" letter-spacing="1">FOUNDER &amp; AI BUILDER</text>
     <text x="122" y="448" font-family="{MONO}" font-size="11" fill="{MUT}">KATHMANDU NODE // NEPAL</text>
     
+    <!-- Barcode + Chip -->
     <rect x="340" y="390" width="56" height="38" rx="6" fill="{GOLD}"/>
     <path d="M340 402H396M340 414H396M358 390V428M378 390V428" stroke="#78350F" stroke-width="1.5"/>
     
+    <!-- Biometric Holo Sheen -->
     <g clip-path="url(#badge_clip)">
       <rect x="-260" y="90" width="110" height="430" fill="url(#holo_sheen)" transform="skewX(-20)">
         <animate attributeName="x" values="-260;540;540" keyTimes="0;0.5;1" dur="4.5s" repeatCount="indefinite"/>
@@ -289,7 +256,6 @@ def idcard():
 
     defs = f'''
     <clipPath id="badge_clip"><rect x="100" y="95" width="320" height="420" rx="20"/></clipPath>
-    <clipPath id="photo_clip"><rect x="120" y="130" width="280" height="240" rx="14"/></clipPath>
     <linearGradient id="holo_sheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="{CYAN}" stop-opacity="0"/>
       <stop offset="0.5" stop-color="{CYAN}" stop-opacity=".35"/>
@@ -299,12 +265,14 @@ def idcard():
 
     b = [blobs(W, H), particles(W, H, 22, 77), card]
 
+    # Right side: Live System HUD Telemetry
     b.append(f'''<g transform="translate(490 85)">
       <text x="0" y="24" font-family="{MONO}" font-size="13" font-weight="700" fill="{ROSE}" letter-spacing="3">// SYSTEM PROFILE &amp; STATS</text>
       <text x="0" y="70" font-family="{TITLE}" font-weight="900" font-size="44" fill="#FFFFFF">ENGINEERED FOR</text>
       <text x="0" y="116" font-family="{TITLE}" font-weight="900" font-size="44" fill="url(#gb)">HIGH IMPACT.</text>
     </g>''')
 
+    # Metrics Pods
     metrics = [("04", "ROLES ACTIVE"), ("08+", "SHIPPED APPS"), ("100%", "OWNERSHIP")]
     for i, (val, lbl) in enumerate(metrics):
         tx = 490 + i * 158
@@ -315,6 +283,7 @@ def idcard():
           <text x="18" y="78" font-family="{MONO}" font-size="11" font-weight="700" fill="{TXT}" letter-spacing="1">{lbl}</text>
         </g>''')
 
+    # Competencies
     bars = [
         ("AI AGENTS & LOCAL LLMS", 92, CYAN),
         ("FULL STACK ARCHITECTURE", 95, BLUE),
@@ -332,6 +301,7 @@ def idcard():
         ''')
     b.append('</g>')
 
+    # Terminal Status Banner
     b.append(f'''<g transform="translate(490 500)">
       <circle cx="6" cy="6" r="4" fill="{GREEN}" filter="url(#glow)"><animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
       <text x="18" y="10" font-family="{MONO}" font-size="12" font-weight="700" fill="{TXT}">NOW DEPLOYING: </text>
